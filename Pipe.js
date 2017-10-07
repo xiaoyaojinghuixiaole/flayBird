@@ -33,8 +33,8 @@
             //把上下的管道都变成路径 ,把画管道的地方描成路径
             ctx.rect(this.x,0,this.upImg.width,this.y);
             ctx.rect(this.x,dy,this.downImg.width,sy);
-            ctx.strokeStyle='red';
-            ctx.stroke();
+         
+            // ctx.stroke();
         },
         //随机Y坐标
         setY:function(){
